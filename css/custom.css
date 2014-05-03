@@ -60,6 +60,9 @@
 @media all and (min-width:479px){  
 .overlay {
   width: 440px;
+  top: calc(50% - 155px);
+  top: -moz-calc(50% - 155px);
+  top: -webkit-calc(50% - 155px);
   left: calc(50% - 220px);
   left: -moz-calc(50% - 220px);
   left: -webkit-calc(50% - 220px);
