@@ -19,9 +19,9 @@
 
 
 .overlay {
-  animation: fadein 3s;
-  -webkit-animation: fadein 3s;
-  -moz-animation: fadein 3s;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
   width: 300px;
   background-color: rgba(0,0,0,.5);
   position: absolute;
@@ -35,9 +35,9 @@
   right: -webkit-calc(50% - 150px);
   padding: 30px;
   padding-top: 45px;
-  /*
-  border-radius:10px;
-  */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
 .title {
@@ -80,10 +80,6 @@
   margin-bottom: 40px;
   font-size: 20px;
   opacity: 1;
-}
-
-.list {
-
 }
 
 @keyframes fadein {
